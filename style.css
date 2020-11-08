@@ -26,8 +26,23 @@ h3 {
     text-align: center;
 }
 h4 {
-    background-color: gray;
+    color: darkorange;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .fa-lightbulb
+{
+    display: flex;
+    align-items: center;;
+} */
 .logo-link {
     display: flex;
     justify-content: center;
@@ -43,7 +58,10 @@ p {
     text-align: center;
 }
 ul li {
-    margin: center;
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 10px 0;
 }
 a {
     color: inherit;
@@ -67,9 +85,12 @@ a {
 }
 .topnav {
     display: block;
-    background-color: white;
-    color: black;
+    font-weight: bold;
     
+}
+h6 {
+    color: rgba(252, 148, 21, 0.938);
+    font-weight: bold;
 }
 footer {
     text-align: center;
