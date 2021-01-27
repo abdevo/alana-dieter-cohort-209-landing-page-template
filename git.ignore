@@ -55,3 +55,92 @@ Image side by side positioning
                 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
                 
                 Once you're done, submit the URL to your working project with all its tests passing.
+
+
+Code Review with Martyn
+
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Template</title>
+    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3649c9608c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 id="welcome-heading"><i class="fas fa-lightbulb"></i> Bay Valley Tech</h1>
+      <h2>Code Academy</h2>
+      <a class="logo-link" href="www.bayvalleytech.com">www.bayvalleytech.com</a>
+      <h3>Start Your Tech Career Today!</h3>
+      <h3>FREE 7-Month Code Academy</h3>
+      <br>
+
+      </div>
+    </div>
+
+      
+    <div class="row">
+
+      <div class="column">
+        <img src="https://thesisrush.com/blog/wp-content/uploads/2018/05/it-thesis-topics.jpg" alt="Laptop" style="width:85%">
+      </div>
+
+      <div class="column">
+        <img src="https://doit.missouri.edu/wp-content/uploads/2017/05/students-in-dorm.jpg" alt="Coding Students" style="width:90%">
+      </div>
+                
+      <div class="column">
+        <img src="https://assets.change.org/photos/0/on/wg/zvONWGNvVykVFuU-800x450-noPad.jpg?1530096296" alt="Student Thumbs Up" style="width:100%">
+      </div>
+
+    </div>
+             
+
+
+    <div class="row">
+      <div class="col">
+        <br>
+        <h4>THREE MORE CLASSES AVAILABLE IN DREADFUL 2020 </h4>
+        <h4>Apply at www.bayvalleytech.com/code-academy-application</h4>
+        <p><strong>Objective:</strong> Build up the next generation of coders. Apply here:</p> 
+        <a class="hover-link" href="https://www.bayvalleytech.com/code-academy-application">https://www.bayvalleytech.com/code-academy-application</a>
+        <ul>
+          <li>Bay Valley Tech's code academy program prepares students for tech careers in less time than traditional four-year universities</li>
+          <li>Web development curriculum includes HTML/CSS, Bottstrap, JavaScript, TypeScript, Angular, SCSS, Node.js, Mongo DB, MySQL</li>
+          <li>Flexible online lessons with weekly in-person classes and commuinity-based learning provides lots of support, perr study groups and mentorship from personal software developers</li>
+          <li>Approximately 20 hours per week of study time for 7 months (slower paced options available for students working full-time</li>
+          <li>Students must be at least 18 years old to participate</li>
+          <li>Prior programming experience is helpful but not necessary</li>
+          <li>Applicants must complete prerequisite self-study materials and assessments prior to acceptance into the code academy</li>
+          <li>View testimonials from previous students: <a class="hover-link" href="http://www.ledger.news/on_the_vine/bay-valley-techs-free-code-academy-experiencing-phenomenal-growth-as-students-land-local-tech-jobs/article_da68fbe4-0f03-11eb-873a-eb3d9096c32d.html">Click Here!</a>
+        </ul>
+        <br>
+        <h6>Come join us as we step into the world of technology!</h6>
+
+        <div style="color:black" class="topnav">
+          <br>
+          <a href="https://www.bayvalleytech.com/faq">FAQ</a>
+          <br>
+          <a href="https://www.bayvalleytech.com/contact">Contact Us</a>
+        </div>
+                
+      </div>
+    </div>
+          
+  </div>
+    
+    <footer>
+        Bay Valley Tech - 4701 Stoddard Rd, 2nd Floor, Modesto, CA 95356 - info@bayvalleytech.com <br>
+        all 2020 classes held online until further notice
+    </footer>
+</body>
+</html>
